@@ -93,7 +93,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         name: String,
     ): String {
         return "https://img.vietqr.io/image/$bankID-$accountNumber-3X8QDX1.jpg?amount=$amount&accountName=$name"
-//        return "https://img.vietqr.io/image/$bankID-$accountNumber-3X8QDX1.jpg?amount=$amount"
     }
 
     override fun onClick(v: View) {
